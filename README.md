@@ -17,5 +17,5 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 
 ![Screenshot of the deployed website]
-(https://hadiqaaziz.github.io/Module_1_assignment/)
+(https://hadiqaaziz.github.io/Module_2_assignment/)
 
