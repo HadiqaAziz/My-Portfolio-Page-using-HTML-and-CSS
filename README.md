@@ -17,6 +17,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Responsive Layout
 Resposive layouts work at screen size: full and ( 320px - 550 px)
 
-![Screenshot of the deployed website]
-(https://hadiqaaziz.github.io/Module_2_assignment/)
+![Screenshot of the deployed website](./assets/images/deployed_website.png)
+
+[Link of the deployed wesite](https://hadiqaaziz.github.io/Module_2_assignment/)
 
