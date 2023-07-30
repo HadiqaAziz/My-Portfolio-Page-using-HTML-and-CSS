@@ -1,0 +1,396 @@
+
+body {
+    background-image: url('background.avif'); 
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-color: rgb(203, 183, 102);;
+    display:flex;
+    flex-direction: column;
+    @media only screen and (max-width:786px) {
+        background-color:  white;
+    }
+}
+.container-1 {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    padding: 0px 10px;
+
+}
+.header{
+    height:60px;
+    background-color:rgb(0, 0, 0);
+    width:120%;
+    display: flex;
+    justify-content: center;
+    opacity: 60%;
+}
+
+.header-profile-picture{
+
+    width:120px;
+    height:100%;
+    /* background-color:blue; */
+}
+
+.header-nav {
+    display: flex;
+    width:fit-content;
+    height:100%;
+    /* background-color:red; */
+}
+
+.header-nav ul  {
+    list-style: none;;
+ 
+}
+
+.header-nav ul li {
+    display: inline;
+    float:left;
+    background-color: black;
+   
+    margin: 0px 10px 0px 0px 10px 0px 61px;; 
+}
+
+.header-nav ul li a {
+    text-decoration:none;
+    color: rgb(203, 183, 102);
+    padding: 0px 38px;
+    font-family: 'Poppins';
+    font-size: larger;
+    line-height: 30px;
+    border-radius: 50%;
+    border: 2px
+
+}
+
+.header-nav ul li a:hover{
+    color:white;
+    transition: 0.4s;
+    width:120%;
+    height:70%;
+    font-size:120%;
+    text-shadow: 0 0 3px rgb(255, 254, 254);
+
+}
+
+.profile-details {
+    height: 221px;
+    justify-content: center;
+   
+
+}
+
+.profile-picture {
+    margin-left: 335px;
+    margin-bottom: -136px;
+    margin-top: 57px;
+}
+.profile-picture img {
+    width:10%;
+}
+
+.profile-picture p {
+    font-size: x-large;
+    color:white;
+    text-shadow:0 5px 10px rgba(17, 16, 16, 0.2);
+}
+
+.profile-details-heading {
+    float: right;
+    margin-top: -46px;
+    margin-right: 163px;
+    margin-left: 10px;
+    color: white;
+    text-shadow: 0 0 3px rgb(19, 18, 18);
+}
+.profile-details-heading h1 {
+    font-size: xxx-large;
+}
+
+.profile-details-heading h2 {
+    font-size:large;
+}
+
+.container-2 {
+    display:flex;
+    flex-direction: column;
+    padding: 0px 54px;
+    background-color:rgb(0, 0, 0);
+    width:91%;
+    opacity: 76%; 
+
+}
+
+.about-me {
+    display:flex;
+    flex-direction: row;
+
+}
+
+.about-me h1 {  
+    color: white;
+    
+} 
+.about-me p {
+    padding: 0px 143px 0px 115px;
+    color: white;
+} 
+
+.work {
+    display:flex;
+    flex-direction: row;
+
+}
+.work h1 {
+    
+    color: white;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+    gap:107px;
+    /* margin-left: 32px; */
+    /* border: 21px; */
+    color:white;
+    height: 478px;
+    width: 75%;
+}
+
+.projects h4 {
+    color:white;
+    color: white;
+    margin-top: -49px;
+    margin-bottom: -13px;
+}
+
+.projects p {
+    color:white;
+}
+.projects a img:hover {
+    color: white;
+    transition: 2s;
+    width:80%;
+    height:200%;
+    border-color:white;
+    border-style: solid;
+    border:10px;
+    border-width: 200px, 200px, 0,0;;
+}
+
+
+.project-1 {
+    /* display:inline-block; */
+    padding: 0px 33px 0px 119px;
+    height: 0.5vw;
+    width: 381px;
+    flex-grow:1;
+    
+}
+.project-1 img {
+    /* padding: 24px; */
+    height: 167px;
+    width: 305px;
+    transition: .2s linear;
+}
+.project-2 {
+    
+    padding: 0px 33px 0px 119px;
+    height: 63px;
+    width: 381px;
+}
+.project-2 img {
+    
+    height: 167px;
+    width: 305px;
+}
+
+.project-3 {
+    
+    padding: 0px 33px 0px 119px;
+    height: 63px;
+    width: 381px;
+}
+.project-3 img {
+    
+    height: 167px;
+    width: 305px;
+}
+
+.project-4 {
+    
+    padding: 0px 33px 0px 119px;
+    height: 63px;
+    width: 381px;
+}
+.project-4 img {
+    
+    height: 167px;
+    width: 305px;
+}
+
+.project-5 {
+    
+    padding: 0px 33px 0px 119px;
+    height: 63px;
+    width: 381px;
+}
+.project-5 img {
+    
+    height: 167px;
+    width: 305px;
+}
+
+.contact-me {
+    display:flex;
+    flex-direction: row;
+    padding-top: 89px
+
+}
+
+.contact-me h1 {
+    
+    color: white;
+}
+
+.contact-links a {
+    text-decoration:none;
+    color:white;
+    margin-left: 114px;
+    line-height: 80px;
+
+}
+.contact-links a:hover{
+    color:#e9edef;
+    transition: 0.3s;
+    border-radius: 50%;
+    font-size:110%;
+    text-shadow: 0 0 3px rgb(255, 254, 254);
+
+}
+.resume {
+    display:flex;
+    flex-direction: row;
+
+}
+.resume h1 {
+    color: white;
+}
+.resume a {
+    text-decoration:none;
+    color:white;
+    padding-left: 165px;
+    line-height: 93px;
+}
+
+@media only screen and (max-width:786px) {
+
+    .header {
+        padding:0px;
+    }
+
+    .profile-details {
+        display:flex;
+        flex-direction: row;
+    }
+
+    .profile-picture {
+        padding:0px;
+        margin:0px;
+        padding-top: 37px;
+        padding-left: 87px;
+    }
+    .profile-picture img {
+        width: 38%;
+    }
+
+    .profile-details-heading {
+
+        margin-top: 13px;
+        margin-right: 141px;
+        margin-left: 8px;
+    }
+    .profile-details-heading h1{
+        font-size: xx-large;
+        
+    }
+    
+    .container-2{
+        padding: 0px 54px;
+        width: 91%;
+    }
+    .about-me p {
+        padding: 0px 74px 0px 106px;
+    }
+    .projects{  
+        gap: 175px;
+        margin-top: 25px;
+    }
+    .project-2{
+        height: 0.5vw;
+    }
+    .project-3{
+        height: 0.5vw;
+    }
+    .project-4{
+        height: 0.5vw;
+    }
+    .contact-me{
+        padding-top: 402px;
+    }
+    .contact-links a { 
+        margin-left: 36px;
+        
+    }
+
+
+}
+
+@media only screen and (max-width:480px){
+    .container-1{
+        padding:0px;
+        margin-bottom: 34px;
+    }
+    .header-nav ul li a {
+        padding: 0px 23px;
+        font-size: medium;
+    }
+    .profile-picture img {
+        width: 95%;
+        margin-bottom: -23px;
+        
+    }
+    .profile-picture p {
+        text-align: center;
+        
+    }
+    .profile-details-heading {
+        margin-right: 47px;
+        margin-left: 68px
+    }
+    .about-me p {
+        padding: 15px 19px 0px 72px;
+    }
+    .projects{
+        margin-left: -43px;
+    }
+    .contact-links{
+        padding-top: 26px;
+        padding-left: 5px;
+    }
+    
+    .contact-links a{
+        line-height: 34px;;
+    }
+
+    .resume a {
+        padding-left: 45px;
+    }
+
+
+
+}
+    
