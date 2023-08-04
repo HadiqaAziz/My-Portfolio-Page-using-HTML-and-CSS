@@ -16,8 +16,11 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ## Responsive Layout
 Resposive layouts work at screen size: full and ( 320px - 550 px)
+screen shot of deployed website
+<img width="934" alt="image" src="https://github.com/HadiqaAziz/My-Portfolio-Page-using-HTML-and-CSS/assets/2726317/b8662555-fe94-4070-9ca8-5440d8994b6d">
 
-![Screenshot of the deployed website](./assets/images/deployed_website.png)
+
+
 
 [Link of the deployed wesite](https://hadiqaaziz.github.io/Module_2_assignment/)
 
