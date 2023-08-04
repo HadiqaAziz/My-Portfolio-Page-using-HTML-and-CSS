@@ -15,7 +15,7 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ## Responsive Layout
-Resposive layouts work at screen size: full and ( 320px - 550 px)
+Resposive layouts work at screen size: full screen for desktop  ( width great than 786 ) , medium for Tablet (width 785-480 px) and small screen for mobile (width less than 480px)
 screen shot of deployed website
 <img width="934" alt="image" src="https://github.com/HadiqaAziz/My-Portfolio-Page-using-HTML-and-CSS/assets/2726317/b8662555-fe94-4070-9ca8-5440d8994b6d">
 
