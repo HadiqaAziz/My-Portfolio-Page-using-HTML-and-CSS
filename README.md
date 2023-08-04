@@ -22,5 +22,7 @@ screen shot of deployed website
 
 
 
-[Link of the deployed wesite](https://hadiqaaziz.github.io/Module_2_assignment/)
+[link to the deployed website(https://hadiqaaziz.github.io/My-Portfolio-Page-using-HTML-and-CSS/)]
+
+
 
