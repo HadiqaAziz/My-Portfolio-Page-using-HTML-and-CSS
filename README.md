@@ -1,5 +1,4 @@
 # My Porfolio
-## Acceptance Criteria
 This is a simple webpage created using HTML and CSS
 ## Responsive Layout
 Resposive layouts work at screen size: full screen for desktop  ( width great than 786 ) , medium for Tablet (width 785-480 px) and small screen for mobile (width less than 480px)
